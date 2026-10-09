@@ -24,7 +24,7 @@ FileUp-3.1.0-Setup-en-x64.exe.fuppart.002
 FileUp-3.1.0-Setup-en-x64.exe.fuppart.003
 FileUp-3.1.0-Setup-en-x64.exe.fuppart.004
 ```
-**Linux — deb (5 parts)**
+**Linux — deb (4 parts)**
  
 ```
 Deb part's (linux) ⤵️
