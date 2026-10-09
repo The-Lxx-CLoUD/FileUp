@@ -8,8 +8,8 @@
  - [Run Source = Persian]((help-file)/RunSource's/run-Source-fa.md)
 
 ### 3️⃣ Download and Use for windows/linux :
-- [Use and Download = English]
-- [Use and Download = Persian]
+- [Use and Download = English]((help-file)/D-md/Download-Use-en.md)
+- [Use and Download = Persian]((help-file)/D-md/Download-Use-fa.md)
 ---
 
 # 📂 FileUp — A Modern File Manager for Windows and Linux
