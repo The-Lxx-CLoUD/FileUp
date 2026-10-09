@@ -7,8 +7,8 @@
  
 | File | Platform | Size |
 |---|---|---|
-| `FileUp-3.0.1-Setup-en-x64.exe` | Windows 10/11 (64-bit) | ~80 MB |
-| `FileUp-3.0.1-en-amd64.deb` | Linux (Debian/Ubuntu/Mint) | ~86 MB |
+| `FileUp-3.1.0-Setup-en-x64.exe` | Windows 10/11 (64-bit) | ~80 MB |
+| `FileUp-3.1.0-en-amd64.deb` | Linux (Debian/Ubuntu/Mint) | ~86 MB |
  
 ---
  
@@ -41,7 +41,7 @@ FileUp-3.1.0-amd64.deb.fuppart.004
 1. Put all the exe parts in one folder.
 2. Double-click `rejoin-windows.bat`
 (run as administrator).
-3. The file `FileUp-3.0.1-Setup-en-x64.exe` will be created.
+3. The file `FileUp-3.1.0-Setup-en-x64.exe` will be created.
 
 **💡 On Linux:**
 ```bash
@@ -52,13 +52,13 @@ chmod +x rejoin-linux.sh
 ## 🌐 Installation:
  
 ### Windows
-1. Double-click `FileUp-3.0.1-Setup-en-x64.exe`.
+1. Double-click `FileUp-3.1.0-Setup-en-x64.exe`.
 2. Accept the license (MIT) → choose the install folder (default: `%LOCALAPPDATA%\Programs\FileUp`) → Install.
 3. A desktop shortcut and Start menu entry are created automatically.
 4. If Windows SmartScreen shows a warning: **More info → Run anyway** (the app has no commercial digital signature; the code is open source and you can build it yourself).
 ### Linux — deb (Ubuntu / Debian / Mint)
 ```bash
-sudo dpkg -i FileUp-3.0.1-en-amd64.deb
+sudo dpkg -i FileUp-3.1.0-en-amd64.deb
  
 # If there is a dependency error:
 sudo apt-get install -f
@@ -69,7 +69,7 @@ sudo apt remove fileup
  
 ---
  
-## Features of Version 3.0.1
+## Features of Version 3.1.0
  
 - **Tabs** — multiple folders in one window, with history
 - **Live + deep search** — instant filtering and recursive search with glob support
