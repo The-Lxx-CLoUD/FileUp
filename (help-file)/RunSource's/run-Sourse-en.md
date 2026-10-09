@@ -34,7 +34,6 @@ npm run dist
 
 | File | Platform | How to install |
 |---|---|---|
-| `FileUp-1.0.0-x86_64.AppImage` | Linux | `chmod +x` and run directly |
 | `FileUp-1.0.0-amd64.deb` | Debian/Ubuntu | `sudo dpkg -i FileUp-1.0.0-amd64.deb` |
 | `FileUp-1.0.0-win.zip` | Windows | Extract and run `FileUp.exe` |
 
