@@ -102,8 +102,8 @@ FileUp/
 - **Recycle Bin:** Each operating system's standard (`shell.trashItem`)
 
 ---
-
-
+[👉🔰Installation and usage steps training🔰👈](https://github.com/The-Lxx-CLoUD/FileUp#3%EF%B8%8F%E2%83%A3-download-and-use-for-windowslinux-)
+---
 © 2026 **TheLxxCLoUD** — Released under the [MIT License](LICENSE).
 
 
@@ -214,7 +214,8 @@ FileUp/
 
 
 ---
-
+[👈🔰مراحل  نصب و استفاده🔰👉](https://github.com/The-Lxx-CLoUD/FileUp#3%EF%B8%8F%E2%83%A3-download-and-use-for-windowslinux-)
+---
 © 2026 **TheLxxCLoUD** — Released under the [MIT License](LICENSE).
 
 </div>
