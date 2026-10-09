@@ -14,7 +14,7 @@
  
 ### 1️⃣ Step 1 — Download:
  
-**Windows (4 parts)**
+**Windows (5 parts)**
  
 ```
 windows part's ⤵️
@@ -24,7 +24,7 @@ FileUp-3.1.0-Setup-en-x64.exe.fuppart.002
 FileUp-3.1.0-Setup-en-x64.exe.fuppart.003
 FileUp-3.1.0-Setup-en-x64.exe.fuppart.004
 ```
-**Linux — deb (4 parts)**
+**Linux — deb (5 parts)**
  
 ```
 Deb part's (linux) ⤵️
