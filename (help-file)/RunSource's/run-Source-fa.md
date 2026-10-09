@@ -34,7 +34,6 @@ npm run dist
 
 | فایل | پلتفرم | روش نصب |
 |---|---|---|
-| `FileUp-1.0.0-x86_64.AppImage` | لینوکس | `chmod +x` و اجرای مستقیم |
 | `FileUp-1.0.0-amd64.deb` | دبیان/اوبونتو | `sudo dpkg -i FileUp-1.0.0-amd64.deb` |
 | `FileUp-1.0.0-win.zip` | ویندوز | استخراج و اجرای `FileUp.exe` |
 
