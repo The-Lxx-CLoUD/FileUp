@@ -1,11 +1,11 @@
 #  💡 Help 💡
 ### 1️⃣ readme's :
-- readme.md = English
-- readme.md = Persian
+- [readme.md = English](https://github.com/The-Lxx-CLoUD/FileUp#-fileup--a-modern-file-manager-for-windows-and-linux)
+- [readme.md = Persian](https://github.com/The-Lxx-CLoUD/FileUp#-fileup--%D9%85%D8%AF%DB%8C%D8%B1-%D9%81%D8%A7%DB%8C%D9%84-%D9%85%D8%AF%D8%B1%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2-%D9%88-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3)
 
 ### 2️⃣ Run Source :
- - Run Source = English
- - Run Source = Persian
+ - [Run Source = English]((help-file)/RunSource's/run-Sourse-en.md)
+ - [Run Source = Persian]((help-file)/RunSource's/run-Source-fa.md)
 
 ### 3️⃣ Use and Download  for windows/linux :
 - Use and Download = English
