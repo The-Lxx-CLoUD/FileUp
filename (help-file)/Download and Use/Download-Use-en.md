@@ -69,7 +69,7 @@ sudo apt remove fileup
  
 ---
  
-## Features of Version 3.1.0
+## Features of Version 3.1.0 ⤵️
  
 - **Tabs** — multiple folders in one window, with history
 - **Live + deep search** — instant filtering and recursive search with glob support
@@ -82,7 +82,8 @@ sudo apt remove fileup
 - **Cleanup (new)** — temporary/log/system junk files and empty folders
 - **FTP / SFTP (new)** — browse, upload, download, create folders, and delete on the server
 - 3-pass secure shredder, duplicate file finder, batch rename, MD5/SHA checksums, bookmarks, dark/light themes
-## Technical Specifications
+- 
+## Technical Specifications ⤵️
  
 - Electron 33 · React 18 · Vite 5 · electron-builder 26
 - Encryption: AES-256-GCM + scrypt (N=32768, maxmem 512MB)
