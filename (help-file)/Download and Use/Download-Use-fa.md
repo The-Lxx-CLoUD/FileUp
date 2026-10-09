@@ -9,8 +9,8 @@
 
 | فایل | پلتفرم | حجم |
 |---|---|---|
-| `FileUp-3.0.1-Setup-en-x64.exe` | ویندوز ۱۰/۱۱ (۶۴ بیتی) | ~۸۰ MB |
-| `FileUp-3.0.1-en-amd64.deb` | لینوکس (Debian/Ubuntu/Mint) | ~۸۶ MB |
+| `FileUp-3.1.0-Setup-en-x64.exe` | ویندوز ۱۰/۱۱ (۶۴ بیتی) | ~۸۰ MB |
+| `FileUp-3.1.0-en-amd64.deb` | لینوکس (Debian/Ubuntu/Mint) | ~۸۶ MB |
 
 
 ---
@@ -44,7 +44,7 @@ FileUp-3.1.0-amd64.deb.fuppart.004
 1. همه پارت‌های exe را در یک پوشه بگذارید.
 2. روی `rejoin-windows.bat` دوبار کلیک کنید
 (اجرا با دسترسی ادمین).
-3. فایل `FileUp-3.0.1-Setup-en-x64.exe` ساخته می‌شود.
+3. فایل `FileUp-3.1.0-Setup-en-x64.exe` ساخته می‌شود.
 
 **💡 در لینوکس:**
 ```bash
@@ -60,14 +60,14 @@ chmod +x rejoin-linux.sh
 ## 🌐 نصب : 
 
 ### ویندوز
-1. روی `FileUp-3.0.1-Setup-en-x64.exe` دوبار کلیک کنید.
+1. روی `FileUp-3.1.0-Setup-en-x64.exe` دوبار کلیک کنید.
 2. مجوز (MIT) را بپذیرید → پوشه نصب را انتخاب کنید (پیش‌فرض: `%LOCALAPPDATA%\Programs\FileUp`) → Install.
 3. میانبر دسکتاپ و منوی استارت به‌طور خودکار ساخته می‌شود.
 4. اگر ویندوز SmartScreen پیام داد: **More info ← Run anyway** (برنامه امضای دیجیتال تجاری ندارد؛ کد باز است و می‌توانید خودتان بسازید).
 
 ### لینوکس — deb (Ubuntu / Debian / Mint)
 ```bash
-sudo dpkg -i FileUp-3.0.1-en-amd64.deb
+sudo dpkg -i FileUp-3.1.0-en-amd64.deb
 
 # اگر خطای وابستگی بود :
 sudo apt-get install -f
@@ -78,7 +78,7 @@ sudo apt remove fileup
 
 ---
 
-## ویژگی‌های نسخه ۳.۰.۱
+## ویژگی‌های نسخه 3.1.0
 
 - **زبانه‌ها** — چند پوشه در یک پنجره، با تاریخچه
 - **جستجوی زنده + عمیق** — فیلتر فوری و جستجوی بازگشتی با پشتیبانی glob
