@@ -1,85 +1,63 @@
-# راهنمای دانلود و نصب FileUp — نسخه ۳.۰.۱
-
+#  🌐 راهنمای دانلود و نصب FileUp 🌐
 **توسعه‌دهنده:** TheLxxCLoUD
 **تلگرام:** [@lxxcloud](https://t.me/lxxcloud)
 
-FileUp یک مدیر فایل سریع و مدرن برای ویندوز و لینوکس است. این نسخه (v3.0.1) شامل جعبه‌ابزار کامل حرفه‌ای است: آرشیو ZIP، تقسیم/ادغام فایل، رمزگذاری AES-256، جستجوی متن داخل فایل‌ها، گزارش پوشه، اسنپ‌شات، پاک‌سازی و اتصال FTP/SFTP.
+
 
 ---
-
-## فایل‌ها
+### فایل‌ها :
 
 | فایل | پلتفرم | حجم |
 |---|---|---|
 | `FileUp-3.0.1-Setup-en-x64.exe` | ویندوز ۱۰/۱۱ (۶۴ بیتی) | ~۸۰ MB |
 | `FileUp-3.0.1-en-amd64.deb` | لینوکس (Debian/Ubuntu/Mint) | ~۸۶ MB |
-| `FileUp-3.0.1-en-x86_64.AppImage` | لینوکس (همه توزیع‌ها) | ~۱۱۰ MB |
 
-هر سه فایل **انگلیسی** هستند و درون برنامه می‌توانید زبان جعبه‌ابزار را از **Settings ← Language** به **فارسی** تغییر دهید.
-
-## می‌بینید که درون برنامه چیست؟
-
-- **About** (دکمه چرخ‌دنده ← About): نام توسعه‌دهنده **TheLxxCLoUD** و لینک تلگرام **@lxxcloud** — نسخه 3.0.1
-- **Tools** در نوار ابزار: هر ۸ ابزار حرفه‌ای
-- تغییر زبان: **Settings ← Language ← فارسی** (بدون نیاز به راه‌اندازی مجدد)
 
 ---
 
-## دانلود با پارت‌های ۲۰ مگابایتی
+### 1️⃣ مرحله ۱ — دانلود :
 
-اگر سرعت اینترنت شما محدود است یا فایل‌های بزرگ مشکل دارند، از پارت‌های ۲۰ مگابایتی استفاده کنید. همه پارت‌ها + اسکریپت‌های ادغام + `MD5SUMS.txt` درون فایل `FileUp-v3.0.1-EN-20MB-parts.zip` قرار دارند.
+**ویندوز (۴ پارت)**
 
-### مرحله ۱ — دانلود
-فایل ZIP را دانلود و استخراج کنید. پارت‌های هر برنامه کنار هم هستند:
-
-**ویندوز (۴ پارت):**
 ```
-FileUp-3.0.1-Setup-en-x64.exe.part00
-FileUp-3.0.1-Setup-en-x64.exe.part01
-FileUp-3.0.1-Setup-en-x64.exe.part02
-FileUp-3.0.1-Setup-en-x64.exe.part03
+windows part's ⤵️
+FileUp-3.1.0-Setup-en-x64.exe.fuppart.000
+FileUp-3.1.0-Setup-en-x64.exe.fuppart.001
+FileUp-3.1.0-Setup-en-x64.exe.fuppart.002
+FileUp-3.1.0-Setup-en-x64.exe.fuppart.003
+FileUp-3.1.0-Setup-en-x64.exe.fuppart.004
+```
+**لینوکس — deb (۵ پارت)**
+
+```
+Deb part's (linux) ⤵️
+FileUp-3.1.0-amd64.deb.fuppart.000
+FileUp-3.1.0-amd64.deb.fuppart.001
+FileUp-3.1.0-amd64.deb.fuppart.002
+FileUp-3.1.0-amd64.deb.fuppart.003
+FileUp-3.1.0-amd64.deb.fuppart.004
 ```
 
-**لینوکس — deb (۵ پارت) و AppImage (۶ پارت)**
+### 2️⃣ مرحله ۲ — ادغام پارت‌ها : 
 
-### مرحله ۲ — ادغام پارت‌ها
-
-**در ویندوز:**
+**💡 در ویندوز:**
 1. همه پارت‌های exe را در یک پوشه بگذارید.
-2. روی `rejoin-windows.bat` دوبار کلیک کنید.
+2. روی `rejoin-windows.bat` دوبار کلیک کنید
+(اجرا با دسترسی ادمین).
 3. فایل `FileUp-3.0.1-Setup-en-x64.exe` ساخته می‌شود.
 
-**در لینوکس:**
+**💡 در لینوکس:**
 ```bash
 chmod +x rejoin-linux.sh
 ./rejoin-linux.sh
 ```
+1. فایل `FileUp-3.1.0-amd64.deb` ساخته می شود.
 
-> **دستور دستی (بدون اسکریپت):**
-> - ویندوز (CMD): `copy /b "FileUp-3.0.1-Setup-en-x64.exe.part00"+"FileUp-3.0.1-Setup-en-x64.exe.part01"+"FileUp-3.0.1-Setup-en-x64.exe.part02"+"FileUp-3.0.1-Setup-en-x64.exe.part03" "FileUp-3.0.1-Setup-en-x64.exe"`
-> - لینوکس: `cat FileUp-3.0.1-Setup-en-x64.exe.part* > FileUp-3.0.1-Setup-en-x64.exe`
 
-### مرحله ۳ — بررسی صحت (اختیاری اما توصیه‌شده)
 
-در ویندوز (CMD):
-```cmd
-certutil -hashfile "FileUp-3.0.1-Setup-en-x64.exe" MD5
-```
-در لینوکس:
-```bash
-md5sum FileUp-3.0.1-Setup-en-x64.exe
-```
-نتیجه باید با مقدار داخل `MD5SUMS.txt` یکی باشد:
 
-```
-bf58618963e798e3554a56cf56a9403c  FileUp-3.0.1-Setup-en-x64.exe
-21efbe3bf837ff0c2e805ae8e06399da  FileUp-3.0.1-en-amd64.deb
-ec8625616c5b44ff8364681d006c8263  FileUp-3.0.1-en-x86_64.AppImage
-```
 
----
-
-## نصب
+## 🌐 نصب : 
 
 ### ویندوز
 1. روی `FileUp-3.0.1-Setup-en-x64.exe` دوبار کلیک کنید.
@@ -90,15 +68,12 @@ ec8625616c5b44ff8364681d006c8263  FileUp-3.0.1-en-x86_64.AppImage
 ### لینوکس — deb (Ubuntu / Debian / Mint)
 ```bash
 sudo dpkg -i FileUp-3.0.1-en-amd64.deb
-# اگر خطای وابستگی بود:
-sudo apt-get install -f
-```
-حذف: `sudo apt remove fileup`
 
-### لینوکس — AppImage (همه توزیع‌ها)
-```bash
-chmod +x FileUp-3.0.1-en-x86_64.AppImage
-./FileUp-3.0.1-en-x86_64.AppImage
+# اگر خطای وابستگی بود :
+sudo apt-get install -f
+
+# حذف :
+sudo apt remove fileup
 ```
 
 ---
