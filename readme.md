@@ -1,3 +1,102 @@
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+ Help 💡
+1️⃣ readme's :
+readme.md = English
+readme.md = Persian
+2️⃣ Run Source :
+
+
+
+
 #  💡 Help 💡
 ### 1️⃣ readme's :
 - [readme.md = English](https://github.com/The-Lxx-CLoUD/FileUp#-fileup--a-modern-file-manager-for-windows-and-linux)
