@@ -7,16 +7,7 @@ dhdhdhhdhd
 dududhhd
 
 
-duudhdhdhd
-
-
-
-
-dududuud
-dudijr
-dudidieie
-dhdidje
-
+duudhdh
 
 
 ### 1️⃣ readme's :
